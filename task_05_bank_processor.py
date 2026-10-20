@@ -46,7 +46,6 @@ def withdraw(balance):
 
         transaction_record("Withdraw", amount, balance)
 
-
 def check_banalce(balance):
     print(f"\nCurrent Balance: {balance:.2f}")
 
